@@ -1,0 +1,37 @@
+{
+  "name": "finalPartOfNodeJS",
+  "version": "1.0.0",
+  "description": "eCommerce app with express, mongoose, jwt",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MehediNSU/Final_Project-of-JS.git"
+  },
+  "author": "Md. Mehedi Hasan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MehediNSU/Final_Project-of-JS/issues"
+  },
+  "homepage": "https://github.com/MehediNSU/Final_Project-of-JS#readme",
+  "devDependencies": {
+    "eslint": "8.2.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.5",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.20"
+  }
+}
